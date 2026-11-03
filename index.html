@@ -1,10 +1,298 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My School Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Future International School</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to Our School</h1>
-    <p>Providing quality education for every child.</p>
+
+    <!-- Top Information Bar -->
+    <div class="top-bar">
+        <p>📞 +234 800 123 4567</p>
+        <p>✉ info@brightfuture.edu.ng</p>
+        <p>📍 Abuja, Nigeria</p>
+    </div>
+
+    <!-- Header and Navigation -->
+    <header>
+        <div class="logo">
+            <span class="logo-icon">🎓</span>
+            <div>
+                <h2>BRIGHT FILL INTERNATIONAL</h2>
+                <small>INTERNATIONAL SCHOOL</small>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#admission">Admissions</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <a href="#admission" class="nav-btn">Apply Now</a>
+    </header>
+
+    <!-- Hero / Home Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="welcome">WELCOME TO BRIGHT FILL INTERNATIONAL</span>
+
+            <h1>Building Great Minds For A <span>Brighter Future</span></h1>
+
+            <p>
+                We provide quality education, excellent learning
+                facilities and a friendly environment where every
+                child can discover their potential.
+            </p>
+
+            <a href="#admission" class="btn">Apply For Admission</a>
+            <a href="#about" class="btn btn-outline">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Quick Information -->
+    <section class="features">
+        <div class="feature">
+            <h2>15+</h2>
+            <p>Years of Excellence</p>
+        </div>
+
+        <div class="feature">
+            <h2>1,200+</h2>
+            <p>Happy Students</p>
+        </div>
+
+        <div class="feature">
+            <h2>80+</h2>
+            <p>Qualified Teachers</p>
+        </div>
+
+        <div class="feature">
+            <h2>30+</h2>
+            <p>Modern Classrooms</p>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="about section" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800"
+                 alt="Students learning in a classroom">
+        </div>
+
+        <div class="about-content">
+            <span class="subtitle">ABOUT OUR SCHOOL</span>
+            <h2>Education Is The Key To A Successful Future</h2>
+
+            <p>
+                Bright Fill International School is committed to
+                providing quality education in a safe, supportive
+                and inspiring environment.
+            </p>
+
+            <p>
+                We encourage creativity, discipline, confidence,
+                leadership and academic excellence in every student.
+            </p>
+
+            <div class="mission">
+                <h3>Our Mission</h3>
+                <p>To develop responsible, intelligent and confident future leaders. We also nuture lifelong learners and innovative leaders in excellence and Godliness</p>
+            </div>
+
+            <div class="mission">
+                <h3>Our Vision</h3>
+                <p>To become a leading institution known for excellence in education.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics -->
+    <section class="academics section" id="academics">
+        <div class="section-heading">
+            <span class="subtitle">WHAT WE OFFER</span>
+            <h2>Our Academic Programmes</h2>
+            <p>Excellent learning programmes for every stage of development.</p>
+        </div>
+
+        <div class="academic-container">
+            <div class="academic-card">
+                <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600"
+                     alt="Nursery pupils">
+                <h3>Nursery School, Nursery rhymes, ABC's etc</h3>
+                <p>Early childhood education through creativity and play.</p>
+            </div>
+
+            <div class="academic-card">
+                <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600"
+                     alt="Primary school students">
+                <h3>Primary School, Basic science, maths, English, etc</h3>
+                <p>Strong foundations in literacy, numeracy and creativity.</p>
+            </div>
+
+            <div class="academic-card">
+                <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600"
+                     alt="Secondary school students">
+                <h3>Secondary School, Maths, Physics, Chemistry, Biology, etc</h3>
+                <p>Preparing students for higher education and life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions -->
+    <section class="admission section" id="admission">
+        <div class="admission-content">
+            <span class="subtitle">JOIN OUR SCHOOL</span>
+            <h2>Admissions Are Now Open!</h2>
+
+            <p>
+                Give your child the opportunity to learn, grow
+                and achieve greatness. Register today.
+            </p>
+
+            <div class="admission-details">
+                <p><strong>Admission Number:</strong> BFS/ADM/2026/001</p>
+                <p><strong>Academic Session:</strong> 2026/2027</p>
+                <p><strong>Available Classes:</strong> Nursery, Primary and Secondary</p>
+                <p><strong>Requirements:</strong> Birth certificate, passport photograph and previous school records where applicable.</p>
+            </div>
+
+            <a href="#contact" class="btn">Enquire About Admission</a>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities section">
+        <div class="section-heading">
+            <span class="subtitle">OUR ENVIRONMENT</span>
+            <h2>School Facilities</h2>
+        </div>
+
+        <div class="facility-container">
+            <div class="facility-card">📚
+                <h3>Modern Library</h3>
+                <p>A quiet environment for reading and research.</p>
+            </div>
+
+            <div class="facility-card">🔬
+                <h3>Science Laboratory</h3>
+                <p>Practical learning and scientific discovery.</p>
+            </div>
+
+            <div class="facility-card">⚽
+                <h3>Sports Facilities</h3>
+                <p>Physical fitness, games and teamwork.</p>
+            </div>
+
+            <div class="facility-card">💻
+                <h3>Computer Laboratory</h3>
+                <p>Modern technology and digital education.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery section" id="gallery">
+        <div class="section-heading">
+            <span class="subtitle">SCHOOL LIFE</span>
+            <h2>Our School Gallery</h2>
+            <p>Beautiful moments of learning and growing together.</p>
+        </div>
+
+        <div class="gallery-container">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600" alt="Classroom activities">
+            <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?w=600" alt="Students learning">
+            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600" alt="Teacher and students">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600" alt="School pupils">
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="contact section" id="contact">
+        <div class="section-heading">
+            <span class="subtitle">GET IN TOUCH</span>
+            <h2>Contact Our School</h2>
+            <p>We would love to hear from you.</p>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+
+                <p>📍 <strong>Address:</strong><br>
+                Plot 25, School Road, Abuja, Nigeria.</p>
+
+                <p>📞 <strong>Phone:</strong><br>
+                +234 800 123 4567</p>
+
+                <p>✉ <strong>Email:</strong><br>
+                info@brightfillinternational.edu.ng</p>
+
+                <p>🕒 <strong>School Hours:</strong><br>
+                Monday – Friday, 7:30 AM – 3:00 PM</p>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Full Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <input type="text" placeholder="Your Phone Number">
+                <textarea rows="6" placeholder="Write your message here..." required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>BRIGHT FILL INTERNATIONAL SCHOOL</h2>
+                <p>Building great minds for a brighter future.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#admission">Admissions</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>Abuja, Nigeria</p>
+                <p>+234 800 123 4567</p>
+                <p>info@brightfillinternational.edu.ng</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2026 Bright Fill International School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
 </body>
+<header>
+  <img src="logo.png" alt="Website Logo" style="width:150px; height:auto;">
+</header>
 </html>
+
+  
